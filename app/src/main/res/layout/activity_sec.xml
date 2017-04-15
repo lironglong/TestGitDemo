@@ -6,12 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.lironglong.administrator.testgitdemo.SecondAvtivity">
+    tools:context="com.lironglong.administrator.testgitdemo.SecAvtivity">
     <TextView
-        android:text="这是第二个页面"
         android:id="@+id/sec_tv"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="这是第二个页面"/>
+    <Buttot
+        android:id="@+id/sec_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击关闭当前界面"/>
 
 
 </LinearLayout>
