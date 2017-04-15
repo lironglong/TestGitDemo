@@ -6,18 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.lironglong.administrator.testgitdemo.MainActivity">
-
-    <Button
-        android:id="@+id/bt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="点击显示进入下一个页面"/>
+    tools:context="com.lironglong.administrator.testgitdemo.SecondAvtivity">
     <TextView
-        android:id="@+id/tv_show"
+        android:text="这是第二个页面"
+        android:id="@+id/sec_tv"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="这是第二次提交"/>
+        android:layout_height="wrap_content"/>
 
 
 </LinearLayout>
